@@ -36,8 +36,8 @@ public class MovingRobot {
     
     public void move(double duration, JPanel jpanel) {
 
-        angle = random.nextFloat()*3.1415926535*2;
-        //angle += Math.PI / 16.0;
+        //angle = random.nextFloat()*3.1415926535*2;
+        angle += Math.PI / 16.0;
 
             
         for (double t = 0; t < duration; t+= dt) {
